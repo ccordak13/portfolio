@@ -1,0 +1,171 @@
+/* NAVBAR */ 
+
+.custom-navmenu {
+    background: #B7990D;
+  }
+
+#right{
+    text-align: right;
+}
+
+.cowboy{ 
+    display: flex;
+    align-content: center;
+    height:180px;
+    width:150px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+
+#cowboy{ 
+    display: flex;
+    align-content: center;
+    align-self:center;
+    justify-self: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.image_off{ 
+    height:205px;
+    width:175px;
+    align-content: flex-start;
+    align-self: flex-start;
+}
+
+.image_off, .cowboy:hover .image_on{
+    display:none
+ }
+ .image_on, .cowboy:hover .image_off{
+    display:block
+ }
+
+.intro{ 
+    background-color:#CDD6D0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    min-height: 100%;
+    width:100%;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.checked{ 
+    color:#F3EFE0;
+    padding-top:5px;
+}
+
+.burger{ 
+    display: flex;
+    float: right;
+    text-align: right;
+    color: transparent;
+    height:50px;
+    width:50px;
+}
+
+.rotate {
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.burger:before, .burger span, .burger:after{
+    background:transparent;
+}
+/* FONTS */ 
+
+li.active a{ 
+    color:#494949;
+    text-decoration: none !important; 
+}
+
+h1{ 
+    font-family:"Covered By Your Grace";
+    color:#fff;
+    font-size:275px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200px;
+}
+
+.cierra{ 
+    color:#B7990D;
+}
+
+.cordak{ 
+    color:#F87666;
+}
+
+
+h3{ 
+    font-size:100px !important;
+    text-align: center;
+    align-self: center;
+}
+
+p{ 
+    font-family: "Epilogue";
+    color: #F3EFE0 !important;
+}
+
+.email:hover{ 
+    text-shadow: 1px 1px 8px #F3EFE099;
+}
+
+li >a{ 
+    font-family: "Epilogue";
+    font-size:70px;
+    font-weight: 600;
+}
+
+.custom-navmenu a:hover{
+    color:#494949;
+    transition:0.2s;
+    transform: rotate(180deg);
+}
+
+.no-ani{ 
+    transform: none !important;
+    transition: none !important;
+}
+
+li{ 
+    list-style: none;
+}
+
+/* HERO */
+
+#container{ 
+    perspective:10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:100%;
+    height:625px;
+}
+
+#inner{ 
+    transition: transform 0.4s;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
